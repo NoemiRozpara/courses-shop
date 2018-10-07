@@ -2,10 +2,10 @@
 Sample courses shop build using ReactJS. 
 
 Configuration: 
-$ git clone https://github.com/NoemiRozpara/courses-shop
-$ cd courses-shop
-$ npm install
-$ npm start
+$ git clone https://github.com/NoemiRozpara/courses-shop  
+$ cd courses-shop  
+$ npm install  
+$ npm start  
 
 Features: 
 * Available courses list displayed from src/Data/courses_data.jsx (JSON)

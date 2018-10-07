@@ -1,7 +1,7 @@
 import React from 'react';
 
 import {AppState, actions} from '../app';
-import {Course, CourseActions} from './Course';
+import {Course, CourseActions, CourseDetails} from './Course';
 import CartButton from './CartButton';
 
 const CartDetails = (props) => (
@@ -19,8 +19,7 @@ const ShoppingCartList = ({list}) =>(
 		<hr />
 		<div>
 			{list.length === 0 ? <p> Koszyk jest pusty </p> : null}
-			{list.map((data) => <Course data={data} key={data.id} Details={CartDetails}>	
-		  		<CourseActions data={data} />
+			{list.map((data) => <Course data={data} key={data.id} Details={CourseDetails}>	
 			</Course>)}
 		</div>
 	</div>
